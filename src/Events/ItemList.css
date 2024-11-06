@@ -17,7 +17,7 @@ body {
 
 h2 {
     text-align: center;
-    color: #61dafb; /* Bright accent color */
+    color: #ffffff; /* Bright accent color */
 }
 
 form {
@@ -36,14 +36,45 @@ select {
     color: #fff; /* Input text color */
 }
 
+input[type="tel"],
+select {
+    padding: 10px;
+    border: 1px solid #3c3c3c; /* Darker border */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #333; /* Input background */
+    color: #fff; /* Input text color */
+}
+
+input[type="password"],
+select {
+    padding: 10px;
+    border: 1px solid #3c3c3c; /* Darker border */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #333; /* Input background */
+    color: #fff; /* Input text color */
+}
+
+input[type="email"],
+select {
+    padding: 10px;
+    border: 1px solid #3c3c3c; /* Darker border */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #333; /* Input background */
+    color: #fff; /* Input text color */
+}
+
 input[type="text"]:focus,
 select:focus {
     border-color: #61dafb; /* Highlight border on focus */
     outline: none;
 }
 
+
 button {
-    background-color: #61dafb; /* Bright button color */
+    background-color: #ffffff; /* Bright button color */
     color: #1e1e1e; /* Dark text color */
     border: none;
     padding: 10px;
@@ -84,3 +115,5 @@ button {
 button:hover {
     opacity: 0.9; /* Slight opacity change on hover */
 }
+
+

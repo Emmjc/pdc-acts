@@ -34,6 +34,15 @@ const Nav = () => {
                         >
                             Profile
                         </NavLink>
+
+                        <NavLink 
+                            to="/mymainforms" 
+                            className="nav-link text-light" 
+                            activeClassName="active"
+                        >
+                            Main Forms
+                        </NavLink>
+
                         <NavLink 
                             to="/contact" 
                             className="nav-link text-light" 
